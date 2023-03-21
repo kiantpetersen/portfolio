@@ -43,8 +43,8 @@
     z-index: 30;
     overflow: hidden;
     border-radius: 20px;
-    animation: slidedownup 3s;
-    -webkit-animation: slidedownup 3s;
+    animation: slidedownupimage 3s;
+    -webkit-animation: slidedownupimage 3s;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -140,6 +140,29 @@
 
 }
 
+@keyframes slidedownupimage{
+    0%{top: -300px;}
+    40%{
+        top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+    90%{
+        top:50%;
+        transform: translateY(-60%);
+        -webkit-transform: translateY(-60%);
+        -moz-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+        -o-transform: translateY(-60%);
+}
+    100%{top:-300px    }
+
+
+}
+
 @media only screen and (max-width: 1200px) {
     .intro-box{
         height: 110vh;
@@ -229,15 +252,15 @@
     .intro-heading{
         font-size: 15px !important;
         
-        left: 45px;
+        left: 75px;
     }
     .intro-create{
         font-size: 15px !important;
-        left: 120px;
+        left: 150px;
 
     }
     .intro-img-container{
-        left: 220px;
+        left: 250px;
         width: 75px;
         height: 75px;
     }

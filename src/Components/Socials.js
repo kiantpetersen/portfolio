@@ -25,6 +25,9 @@ function Socials(props) {
 
 
     };
+    window.onload = function (event) {
+        getSize()
+    };
     return (
         <div className='socials-section'>
             <ul className='socials-list'>

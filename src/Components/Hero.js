@@ -14,11 +14,11 @@ function Hero(props) {
                 <h1 className='primary-heading hero-heading'> &lt; Kian Petersen /&gt;</h1>
 
                 <h1 className='secondary-heading'>Let's Create</h1>
-                <p className='hero-text-content'>Hello, I am Kian. I am front-end web developer. I have the ability to take your vision and transform it into a stunning, interactive website that engages and delights your audience. With putting emphasis on user expreience and keeping up witht the lates design trends </p>
+                <p className='hero-text-content'>Hello, I am Kian. I am front-end web developer. I have the ability to take your vision and transform it into a stunning, interactive website that engages and delights your audience. With putting emphasis on user expreience and keeping up with the latest design trends. </p>
                 <div className='btn-container'>
 
-                    <a className='btn btn-primary' href='/'>Contact</a>
-                    <a className='btn' href='/'>View Designs</a>
+                    <a className='btn btn-primary' href='/contact'>Contact</a>
+                    <a className='btn' href='/exhibit'>View Designs</a>
                 </div>
 
             </div>

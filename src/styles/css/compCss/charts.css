@@ -14,14 +14,18 @@
 .chart-container{
     border-bottom: var(--primary-color) solid 1px;
     padding-bottom: 50px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 600px;
     width: 100%;
     margin: 50px 0 10px 0;
     color: #000;
 }
+/* .radar{
+    
+} */
 
 @import url("../queries.css");

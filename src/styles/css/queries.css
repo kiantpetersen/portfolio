@@ -393,7 +393,9 @@
     /* Charts Section */
 /* /////////////////////// */
     .chart-container{
-        height: 300px !important;
+        padding: 0 !important;
+        margin: 10px 0 !important;
+        height: max-content !important;
     }
 
 }

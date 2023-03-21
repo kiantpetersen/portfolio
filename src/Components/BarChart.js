@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2'
 import '../styles/css/queries.css'
+import '../styles/css/compCss/charts.css';
 
 function BarChart(props) {
     return (
