@@ -1,0 +1,24 @@
+@import url("../style.css");
+
+.map-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    height: 700px;
+
+
+    width: 100%;
+}
+.map-container{
+    margin: 5% 20%;
+    height: 90%;
+    width: 60%;
+    border: solid 2px var(--accent-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

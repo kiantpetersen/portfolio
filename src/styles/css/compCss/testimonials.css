@@ -1,0 +1,19 @@
+@import url("../style.css");
+
+
+.testimonial-section{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: fit-content;
+    
+
+}
+.testimonial-container{
+   text-align: center;
+   
+
+}

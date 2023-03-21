@@ -1,0 +1,63 @@
+@import url("../style.css");
+
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px ;
+}
+.contact-container{
+    margin-top: 100px;
+    
+    width: 100%;
+    display: grid;
+    gap:50px;
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-textbox{
+    height: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.contact-info{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: solid 2px var(--secondary-color);
+    color: var(--light-color);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.contact-link{
+    text-decoration: none;
+    color: var(--light-color);
+    border-bottom: solid 1px transparent;
+}
+.contact-link:hover{
+    border-bottom: solid 1px var(--light-color);
+}
+
+
+ion-icon{
+   font-size: 64px;
+   /* color: var(--accent-color); */
+   
+}
+.contact-heading{
+    text-align: center;
+    padding: 0 0 5px 0;
+    width: 150px;
+    border-bottom: solid 2px var(--light-color);
+}

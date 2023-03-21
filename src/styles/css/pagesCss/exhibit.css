@@ -1,0 +1,8 @@
+@import url("../style.css");
+
+
+.exhibit-page{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}

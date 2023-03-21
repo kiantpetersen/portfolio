@@ -1,0 +1,53 @@
+@import url("../style.css");
+
+
+.socials-section{
+    position: absolute;
+    background-color: var(--primary-color);
+    background-color: transparent;
+    height: 200px;
+    top: 200px;
+    right: -5px;
+    
+}
+
+.socials-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 10px 10px ;
+    list-style: none;
+    width: 50px;
+    background-color: var(--primary-color);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 51%);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.socials-list:hover{
+    width: 100px;
+    background-color: var(--accent-color);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.social-link{
+    text-decoration: none;
+    color: var(--accent-color);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.social-link:hover{
+    color: var(--light-color);
+}

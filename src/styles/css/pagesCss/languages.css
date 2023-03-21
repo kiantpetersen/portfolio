@@ -1,0 +1,33 @@
+
+.languages-page{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    
+    
+    /* width: 100%; */
+    
+    
+}
+.languages-section{
+    
+    background-color: rebeccapurple;
+    width: 80%;
+    padding: 20px  150px 0;
+    margin: 20px 10%;
+}
+.card-container{
+    /* margin: 10px 10px; */
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.languages-heading{
+    font-size: 40px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 20px 0 30px 0;
+}
