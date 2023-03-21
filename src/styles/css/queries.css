@@ -397,5 +397,26 @@
         margin: 10px 0 !important;
         height: max-content !important;
     }
+    /* /////////////////////// */
+    /* Testimonial Section */
+/* /////////////////////// */
+    .testimonial-heading{
+        
+    }
+
+    .testimonial-section{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 20px 0 0 0 ;
+    }
+    .testimonial-card{
+        width: auto;
+        margin: 50px 20px 0 20px;
+        padding: 0;
+    }
+    .cover{ 
+        height: 400px;
+    }
 
 }
