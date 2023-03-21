@@ -32,6 +32,9 @@ function Header(props) {
     window.onresize = function (event) {
         setImage()
     };
+    window.onchange = function (event) {
+        setImage()
+    };
     return (
         <div className='header'>
             <div className='nav-img-container'>

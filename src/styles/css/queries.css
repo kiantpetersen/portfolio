@@ -57,7 +57,6 @@
     .cover{
         height: 250px;
     }
-    .testimonial-textbox{}
 
 
 
@@ -264,6 +263,7 @@
     .header{
         padding:0px;
         justify-content: space-around;
+        height: 50px;
         /* border-bottom: solid 1px var(--light-color); */
     }
     .nav-img-container{
@@ -284,6 +284,7 @@
         -o-border-radius: 50%;
 }
     .nav-heading{
+        width: 25%;
         font-size:12px ;
         padding: 0;
         /* height: fit-content; */
@@ -293,11 +294,11 @@
     }
     .nav-link{
         padding: 5px 0;
-        font-size: 7px;
+        font-size: 8px;
         justify-content: space-around;
     }
     .nav-list{
-        width: 220px;
+        width: 75%;
         margin: 0;
     }
     /* ///////////////////////// */
