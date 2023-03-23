@@ -3,6 +3,7 @@ import React from 'react';
 // import heroImg from '../styles/images/hero_img3.jpg';
 import '../styles/css/compCss/hero.css';
 import Orbit from '../Components/Orbit';
+import '../styles/css/queries.css'
 
 function Hero(props) {
     return (
