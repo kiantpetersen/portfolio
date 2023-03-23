@@ -1,11 +1,11 @@
 import React from 'react';
 import { Radar } from 'react-chartjs-2';
 import '../styles/css/compCss/charts.css';
-
+import '../styles/css/queries.css'
 function RadarChart(props) {
     return (
         <div className='chart-container'>
-            <h2 style={{ textAlign: "center" }}>Radar Chart</h2>
+            <h2 className='chart-heading'>Radar Chart</h2>
             <Radar className='radar'
                 data={props.chartData}
                 options={{

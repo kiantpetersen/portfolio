@@ -148,6 +148,9 @@
     .testimonial-section{
         margin: 40px 0 ;
     }
+    .testimonial-heading{
+        font-size: 30px;
+    }
     
     
 }
@@ -197,6 +200,9 @@
     /* /////////////////////// */
     /* Testimonial Section */
     /* /////////////////////// */
+    .testimonial-heading{
+        font-size: 22px;
+    }
     
     
 
@@ -392,6 +398,9 @@
         padding: 0 !important;
         margin: 10px 0 !important;
         height: max-content !important;
+    }
+    .chart-heading{
+        font-size: 25px !important;
     }
     /* /////////////////////// */
     /* Testimonial Section */

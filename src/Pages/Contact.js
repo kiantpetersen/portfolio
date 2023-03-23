@@ -22,11 +22,8 @@ function Contact(props) {
                         </div>
                     </div>
                     <div className='col contact-col'>
-
-
                         <div className=' email col contact-card'>
                             <div className='icon-container'>
-
                                 <ion-icon className='contact-icon' name="mail-outline"></ion-icon>
                             </div>
                             <div className='contaxt-textbox'>
@@ -37,20 +34,15 @@ function Contact(props) {
                                     <p>kiantpetersen@gmail.com</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div className='col contact-col'>
-
                         <div className=' links col contact-card'>
                             <div className='icon-container'>
                                 <ion-icon name="chatbox-ellipses-outline"></ion-icon>
                             </div>
                             <div className='contaxt-textbox'>
-
-
                                 <h3 className='tertiary-heading contact-heading'>Social Media</h3>
-
                                 <div className='contact-info'>
                                     <p><a className='contact-link' href='/'>Instagram</a> </p>
                                     <p><a className='contact-link' href='/'>LinkedIn</a> </p>

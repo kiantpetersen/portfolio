@@ -58,6 +58,7 @@
     -o-border-radius: 30px;
 }
 .testimonial-heading{
+    font-size: 40px;
     padding: 0 0 5px 0;
     border-bottom: solid 2px var(--accent-color);
 }

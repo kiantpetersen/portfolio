@@ -6,32 +6,20 @@
 }
 html{
     font-size: 62.5%;
-    
 }
 body{
-    
     font-family: 'Oxanium';
-    /* overflow: hidden; */
     overflow-x: hidden;
     background-image: linear-gradient(to bottom right,black ,var(--secondary-color));
-
-
-
-
 }
 .hidden{
     visibility: hidden;
 }
 .App{
     background-image: linear-gradient(to bottom right,black ,var(--secondary-color));
-    
-
-    /* background-color: #00acee; */
-    /* height: 100vh; */
     height: 100%;
     overflow: hidden;
-    /* background-color: #0072b1; */
-    /* overflow: hidden; */
+   
 }
 
 .primary-heading::before {  
@@ -76,9 +64,6 @@ body{
     margin: 0px 0;
 }
 .tertiary-heading{
-    /* display: flex;
-    justify-self: flex-start;
-    align-self: flex-start; */
     font-size: 32px;
     margin: 0 0 10px 0;
 }
@@ -86,14 +71,15 @@ body{
 /* Buttons default styles */
 /* //////////////////////// */
 
-.btn{
+.btn:link,
+.btn:visited{
     width:150px;
     padding: 10px 20px;
     color: var(--light-color);
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
-    border: solid 2px var(--accent-color);
+    border: solid 4px var(--accent-color);
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -105,21 +91,24 @@ body{
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
 }
-.btn:hover{
+.btn:hover,
+.btn:active{
     background-color: var(--accent-color);
 
 
 }
-.btn-primary{
+.btn-primary:link,
+.btn-primary:visited{
     background-color: var(--accent-color);
 
 
 }
 
-.btn-primary:hover{
-    /* background-color: var(--primary-color); */
-    color: var(--light-color);
-    border: solid 2px var(--light-color);
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: var(--primary-color);
+    color:  var(--accent-color);
+    border: solid 4px var(--accent-color);
 }
 .btn-container{
     padding: 20px 0;

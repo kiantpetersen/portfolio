@@ -1,11 +1,11 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import '../styles/css/compCss/charts.css';
-
+import '../styles/css/queries.css'
 function LineChart(props) {
     return (
         <div className='chart-container'>
-            <h2 style={{ textAlign: "center" }}>Line Chart</h2>
+            <h2 className='chart-heading'>Line Chart</h2>
             <Line data={props.chartData}
                 options={{
                     plugins: {
@@ -20,7 +20,14 @@ function LineChart(props) {
                             }
                         },
                         legend: {
-                            display: false,
+                            display: true,
+                            labels: {
+                                color: "#fff",  // not 'fontColor:' anymore
+                                font: {
+                                    size: 12 // 'size' now within object 'font {}'
+                                }
+
+                            },
 
                         }
                     },
