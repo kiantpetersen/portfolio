@@ -72,8 +72,19 @@
 }
 .signin-btn{
     margin-top: 10px;
+    font-weight: 600;
     width: 80% ;
+    height: 100%;
+    background-color: var(--accent-color);
+    color: var(--light-color);    
+    font-size: 2rem;
+    border: 1px solid var(--accent-color);
    
+}
+
+.signin-btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
 }
 .select-box{
     font-size: 18px;

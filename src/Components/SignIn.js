@@ -3,6 +3,7 @@ import '../styles/css/compCss/signin.css'
 import femaleAvatarImg from '../styles/images/female_avatar.png';
 import maleAvatarImg from '../styles/images/male_avatar.png';
 import CountryDropdown from './CountryDropdown';
+import '../styles/css/queries.css'
 function SignIn(props) {
     return (
         <div className='sign-in-section'>
@@ -22,7 +23,7 @@ function SignIn(props) {
                                 <label className='input-label' >Password: </label>
                                 <input className='text-input' type='password'></input>
                             </div>
-                            <button type='submit' className='btn btn-primary signin-btn'>Sign in</button>
+                            <button type='submit' className='btn signin-btn'>Sign in</button>
 
                         </form>
                     </div>
@@ -56,10 +57,7 @@ function SignIn(props) {
                                 <label className='input-label' >Confirm Password: </label>
                                 <input className='text-input' type='password'></input>
                             </div>
-
-
-
-                            <button type='submit' className='btn btn-primary signin-btn'>Create Account</button>
+                            <button type='submit' className='btn signin-btn'>Create Account</button>
 
                         </form>
                     </div>
