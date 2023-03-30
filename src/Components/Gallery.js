@@ -22,8 +22,8 @@ function Gallery(props) {
     function setOverlayImg(e) {
         let overlay = document.querySelector('#overlay')
         let img = document.querySelector('#img-container')
-        img.scrollIntoView({ behavior: 'smooth' })
-        overlay.classList.toggle('hidden')
+        img.scrollIntoView()
+        overlay.classList.remove('hidden')
         console.log(e.target.classList)
 
         setImage(e.target.src)
@@ -38,7 +38,7 @@ function Gallery(props) {
     }
     function setVisibility(e) {
         e.preventDefault()
-        e.target.classList.toggle('hidden')
+        e.target.classList.add('hidden')
 
     }
 

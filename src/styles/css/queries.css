@@ -41,6 +41,10 @@
     width: 400px !important;
     height: 300px !important;
   }
+  .over-img-container {
+    height: 450px !important;
+    width: 650px !important;
+  }
   /* /////////////////////// */
   /* Testimonial Section */
   /* /////////////////////// */
@@ -112,6 +116,10 @@
     width: 300px !important;
     height: 200px !important;
   }
+  .over-img-container {
+    height: 400px !important;
+    width: 600px !important;
+  }
   /* /////////////////////// */
   /* Charts Section */
   /* /////////////////////// */
@@ -174,6 +182,11 @@
     width: 250px !important;
     height: 200px !important;
   }
+
+  .over-img-container {
+    height: 350px !important;
+    width: 450px !important;
+  }
   /* /////////////////////// */
   /* Charts Section */
   /* /////////////////////// */
@@ -216,6 +229,11 @@
     width: 200px !important;
     height: 150px !important;
   }
+  .over-img-container {
+    height: 300px !important;
+    width: 400px !important;
+  }
+
   /* /////////////////////// */
   /* Charts Section */
   /* /////////////////////// */
@@ -357,6 +375,11 @@
     width: 150px !important;
     height: 100px !important;
   }
+  .over-img-container {
+    height: 250px !important;
+    width: 350px !important;
+  }
+
   /* /////////////////////// */
   /* Map Section */
   /* /////////////////////// */
@@ -453,5 +476,14 @@
   .testimonial-card {
     width: 95%;
     margin: 10px auto 20px auto;
+  }
+
+  /* /////////////////////// */
+  /* Gallery section*/
+  /* /////////////////////// */
+
+  .over-img-container {
+    height: 200px !important;
+    width: 300px !important;
   }
 }
