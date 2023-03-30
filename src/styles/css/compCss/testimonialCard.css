@@ -1,28 +1,27 @@
 @import url("../style.css");
 
 .testimonial-card{
-    background-color: var(--accent-color);
+    background-image: linear-gradient( to bottom left, #8a2e8a,var(--accent-color),#8a2e8a);
     padding: 10px 0px 0 0;
     position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
+    margin: 50px 30% 20px 30% ;
     height:fit-content;
-    margin: 50px 20% 0 20% ;
-    color: var(--light-color);
-    border: solid 5px var(--accent-color);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    overflow: visible;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
 }
 .user-img{
     height: 120px;
     width: 120px;
-    border: solid 4px var(--accent-color);
+    /* border: solid 4px white; */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -33,7 +32,8 @@
 .user-img-container{
     margin: 0;
     position: absolute;
-    top: -50px;
+    /* top: -50px; */
+    z-index:10;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -47,15 +47,15 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 30px 30px 30px 30px;
+    padding: 50px 40px 20px 40px;
     margin-top: 75px;
-    color: var(--light-color);
-    background-color: var(--primary-color);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 .testimonial-heading{
     font-size: 40px;

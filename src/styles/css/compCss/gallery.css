@@ -1,6 +1,7 @@
 @import url("../style.css");
 @import url("../queries.css");
 .gallery-section{
+  position: relative;
     padding: 30px 0;
     height:fit-content;
     display: flex;
@@ -33,10 +34,10 @@
     -ms-transition: .35s;
     -o-transition: .35s;
 }
-  /* .gallery > img:hover {
-    filter: grayscale(0%);
-    
-} */
+.hidden{
+  visibility: hidden;
+  transition: .35s;
+}
   
   .gallery > img:nth-child(1) {
     clip-path: polygon(0 0,50% 0,100% 100%,0 100%);
@@ -56,4 +57,47 @@
   .gallery > img:nth-child(6) {
     clip-path: polygon(0 0,100% 0,100% 100%,50% 100%);
   }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color:#222222a2;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.over-img-container{
+  height: 600px;
+  width: 800px;
+  border:solid 5px var(--light-color);
+  overflow: hidden;
+  border-radius:5px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+.overlay-img{
+  height: 100%;
+  width: 100%;
+
+  
+}
+
+.slideani{
+  animation: slideinright 3s;
+  -webkit-animation: slideinright 3s;
+}
+
+@keyframes slideinright{
+    
+
+  0% { left: -400px; }
+  100%{left:0}
+}
   
