@@ -22,7 +22,11 @@ function Gallery(props) {
     function setOverlayImg(e) {
         let overlay = document.querySelector('#overlay')
         let img = document.querySelector('#img-container')
-        img.scrollIntoView()
+        img.scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        })
         overlay.classList.remove('hidden')
         console.log(e.target.classList)
 
@@ -38,8 +42,13 @@ function Gallery(props) {
     }
     function setVisibility(e) {
         e.preventDefault()
-        e.target.classList.add('hidden')
+        // e.target.classList.add('hidden')
+        console.log('Element: ', e.target.id)
 
+        if (e.target.id === 'overlay') {
+            e.target.classList.add('hidden')
+
+        }
     }
 
 
